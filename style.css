@@ -94,8 +94,107 @@
     margin-top: 7px;
 }
 
-.fish-image {
-    margin-bottom: 18px;
+.images {
+    margin-bottom: 20px;
+}
+
+.menu-desc {
+    margin-top: 25px;
+}
+
+.decoration-title {
+    margin-left: 22px;
+    font-size: 23px;
+}
+
+.connect-title {
+    font-size: 20px;
+    margin-left: 22px;
+    margin-bottom: 35px;
+}
+
+.connect-button {
+    height: 33px;
+    width: 198px;
+    margin-left: 95px;
+    margin-bottom: 73px;
+}
+
+.button {
+    background-color:#D2A070;
+    color: #fff;
+    border: 0;
+}
+
+.footer {
+    background-color: #151515;
+    height: 394px;
+    width: 100%;
+    position: relative;
+    padding-left: 32px;
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer-logo {
+    font-size: 18px;
+}
+
+.nav {
+    margin-left: 275px;
+    margin-right: 54px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-text {
+    color: #7C7C7C;
+    font-size: 9px;
+    margin-top: 4px;
+}
+
+.footer-list {
+    margin-top: 22px;
+}
+
+.list-item {
+    font-size: 12px;
+}
+
+.footer-button {
+    margin-left: 237px;
+    margin-top: 117px;
+    width: 94px;
+    height: 33px;
+}
+
+.thanks {
+    margin-left: 260px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.footer-image {
+    width: 336px;
+    height: 87px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.footer-image {
+    width: 336px;
+    height: 83px;
+    border-style: solid;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 58px;
 }
 
 @media screen and (min-width:760px) {
@@ -145,6 +244,10 @@
     }
 }
 
+.decoration-title {
+    margin-left: 22px;
+    font-size: 23px;
+}
 @font-face {
     src: url('fonts/Roslindale-DisplayCondensedLight-Testing.woff2') format("woff2"),
         url('fonts/Roslindale-DisplayCondensedLight-Testing.woff') format("woff");
