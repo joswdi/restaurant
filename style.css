@@ -1,0 +1,58 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 313px;
+    padding: 15px 20px;
+    width: 100%;
+    background-image: url(./images/Image_Cover.webp);
+    background-color: rgb(105, 103, 103);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+.main-title {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    font-size: 39px;
+}
+.main-title, .logo, .header>p {
+    color: #fff;
+}
+.header > p {
+    width: 216px;
+}
+.section-title {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    font-size: 29px;
+}
+.section p {
+    flex-basis: 50%;
+    max-width: 440px;
+}
+@media screen and (min-width:760px) {
+    .header {
+        width: 100%;
+        max-width: 1044px;
+        height: 436px;
+    }
+    .main-title {
+        font-size: 85px;
+    }
+    .header > p {
+        width: 333px;
+    }
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
