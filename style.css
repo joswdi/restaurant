@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
+.text {
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 600;
+}
+
 .header {
     height: 313px;
     padding: 15px 20px;
@@ -15,44 +21,134 @@
     display: flex;
     flex-direction: column;
 }
+
+.font-headings {
+    font-family: 'Roslindale';
+    font-style: normal;
+    font-weight: 300;
+}
 .logo {
     text-decoration: none;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
+
 .main-title {
     margin-top: 16px;
     margin-bottom: 25px;
     font-size: 39px;
 }
+
 .main-title, .logo, .header>p {
     color: #fff;
 }
+
 .header > p {
     width: 216px;
 }
+
+.section {
+    padding: 46px 10px;
+    flex-direction: column;
+}
+
 .section-title {
-    flex-basis: 50%;
-    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-size: 13px;
+}
+
+.text-history {
+    margin-bottom: 10px;
+}
+
+.gallery {
+    margin-top: 40px;
+    list-style-type: none;
+    position: relative;
+}
+
+.image {
+    height: 190px;
+    width: 190px;
+    margin-bottom: 5px;
+}
+
+.third-image {
+    position: absolute;
+    top: 548px;
+    left: 200px;
+}
+
+#right-title {
+    text-align: right;
+}
+
+.title {
+    text-transform: uppercase;
     font-size: 29px;
 }
-.section p {
-    flex-basis: 50%;
-    max-width: 440px;
+
+.desc {
+    margin-top: 7px;
 }
+
+.fish-image {
+    margin-bottom: 18px;
+}
+
 @media screen and (min-width:760px) {
+    p {
+        font-size: 15px;
+    }
+    
     .header {
         width: 100%;
-        max-width: 1044px;
-        height: 436px;
+        max-width: 1440px;
+        height: 450px;
     }
+
     .main-title {
         font-size: 85px;
     }
+
     .header > p {
         width: 333px;
     }
+
     .section {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: 0 auto;
     }
+
+    .section-title {
+        font-size: 36px;
+        margin-bottom: 0;
+        align-self: flex-start;
+        flex-basis: 60%;
+        text-align: right;
+    }
+    
+    .section p {
+        font-size: 15xp;
+        flex-basis: 40%;
+        max-width: 440px;
+    }
+    
+    .history-gallery {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+}
+
+@font-face {
+    src: url('fonts/Roslindale-DisplayCondensedLight-Testing.woff2') format("woff2"),
+        url('fonts/Roslindale-DisplayCondensedLight-Testing.woff') format("woff");
+    font-family: 'Roslindale';
+    font-style: normal;
+    font-weight: 300;
 }
