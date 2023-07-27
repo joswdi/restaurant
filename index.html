@@ -6,135 +6,61 @@
     <title>Restaurant</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
-        integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <a class="logo font-headings" href="./">NSUOMNAM</a>
-        <nav class="text ">
-            <ul class="header-nav">
-                <li><a href="./#history" class="nav-link">History</a></li>
-                <li><a href="./#menu" class="nav-link">Menu</a></li>
-                <li><a href="./#trim" class="nav-link">Trim</a></li>
-                <li><a href="./#map" class="nav-link">Map</a></li>
-            </ul>
-        </nav>
-        <button class="button text header-button">Shopping cart</button>
-        <h1 class="main-title font-headings">SAVOUR REAL SEAFOOD</h1>
-        <p class="text">
-            With a deep-rooted love for all things seafood, our talented chefs combine culinary expertise with creativity to craft
-            dishes that celebrate the ocean's treasures.
-        </p>
-    </header>
-    <main>
-        <section class="section">
-            <h2 class="section-title title font-headings" id="history">Emperor's Cooking Dynasty: 
-            <br> History of Our Cuisine</h2>
-            <p class="text-history text">
-                Our esteemed chef, renowned for their passion and expertise in seafood cuisine, elevates the freshest catches into
-                culinary works of art that will delight your senses. With an unwavering dedication to sourcing the highest quality
-                seafood, our chef is deeply committed to sustainability and responsible fishing practices, ensuring that each ingredient
-                is not only delicious but also ethically sourced.
-                <br>
-                <br>
-                Drawing inspiration from global flavors and techniques, our chef combines traditional culinary wisdom with innovative
-                approaches to create unforgettable dishes. From succulent crab cakes with a hint of Cajun spice to seared tuna atop a
-                bed of vibrant seaweed salad.
-            </p>
-            <ul class="gallery">
-                <li><img class="first-image" src="./images/first section/Image_1.webp" alt="1"></li>
-                <li class="image"><img class="history-collage second-image" src="./images/first section/Image_2.webp" alt="2"></li>
-                <li class="image third-image"><img class="history-collage" src="./images/first section/Image_3.webp" alt="3"></li>
-                <li><img class="history-cover" src="./images/first section/Image_cover2.webp" alt="4"></li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2 class="section-title title font-headings" id="right-title">Our eatery provides an array of quality ingredients, crafting a diverse range of flavourful dishes.</h2>
-            <div class="dishes">
-            <h2 class="font-headings title sub-title absolute" id="menu">Exquisite Salmon Delicacies</h2>
-            <p class="text desc sub-desc absolute">Discover a tantalizing array of seafood delights that await you. Explore our menu and immerse yourself in a culinary
-            journey that will satisfy your cravings for the finest flavors from the sea.</p>
-            <ul class="gallery">
-                <li class="square-item"><img class="images square-images" src="./images/second section/first.webp" alt="first"></li>
-                <li class="square-item first-line"><img class="images square-images" src="./images/second section/second.webp" alt="second"></li>
-                <li class="square-item"><img class="images square-images" src="./images/second section/third.webp" alt="third"></li>
-                <li class="square-item"><img class="images square-images" src="./images/second section/fourth.webp" alt="fourth"></li>
-                <li class="square-item"><img class="images square-images" src="./images/second section/fifth.webp" alt="fifth"></li>
-            </ul>
+    <div class="container container-md">
+        <header>
+            <nav class="navbar navbar-expand-lg header-navigation">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-headings" href="#">NSUOMNAM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-container" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Trim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="row hero">
+                <div class="col-sm-12">
+                    <h1 class="font-headings">Savour real Seafood</h1>
+                </div>
+                <div class="col-sm-3">
+                    <p class="text hero-text">With a deep-rooted love for all things seafood,
+                    our talented chefs combine culinary expertise
+                    with creativity to craft dishes that celebrate
+                    the ocean's treasures.</p>
+                </div>
             </div>
-        </section>
-        <section class="section">
-            <h2 class="font-headings title soups-title">Fresh seafood soups</h2>
-            <p class="text desc soups-desc">
-                Our seafood chowder is a symphony of flavors and fragrances derived from the ocean. Meticulously chosen fresh seafood
-                elements harmoniously blend together to provide an unforgettable gustatory journey.
-            </p>
-            <ul class="gallery">
-                <li class="square-item"><img class="images square-images first-line" src="./images/soups/first.webp" alt="first"></li>
-                <li class="square-item"><img class="images square-images" src="./images/soups/second.webp" alt="second"></li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2 class="font-headings title menu-title">Full menu</h2>
-            <p class="text desc menu-desc">
-                Discover a tantalizing array of seafood delights that await you. Explore our menu and immerse yourself in a culinary
-                journey that will satisfy your cravings for the finest flavors from the sea.
-            </p>
-            <ul class="gallery menu-gallery">
-                <li class="square-item"><img class="images square-images" src="./images/menu/first.webp" alt="first"></li>
-                <li class="square-item"><img class="images square-images" src="./images/menu/second.webp" alt="second"></li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2 class="font-headings title decoration-title" id="trim">In our venue, we maintain a coastal ambiance with traditional IVORIAN elements like ivorian prints tissues walls and wood lighting fixtures</h2>
-            <ul class="gallery">
-                <li><img class="images" src="./images/decoration/first.webp" alt="first"></li>
-                <li><img class="images" src="./images/decoration/second.webp" alt="second"></li>
-                <li><img class="images" src="./images/decoration/third.webp" alt="third"></li>
-                <li><img class="images" src="./images/decoration/fourth.webp" alt="fourth"></li>
-                <li><img class="images" src="./images/decoration/fifth.webp" alt="fifth"></li>
-                <li><img class="images" src="./images/decoration/sixth.webp" alt="sixth"></li>
-                <li><img class="images" src="./images/decoration/seventh.webp" alt="seventh"></li>
-                <li><img class="images" src="./images/decoration/eighth.webp" alt="eighth"></li>
-                <li><img class="images" src="./images/decoration/nineth.webp" alt="nineth"></li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="font-headings title connect-title">We buy our products only from trusted suppliers in ACCRA to guarantee the
-                <br> highest quality of our dishes.</h2>
-            <button class="button text connect-button">Visit our restaurant</button>
-            <a href="https://www.google.com.ua/maps/place/NsuomNam+Seafood+and+Fish+Restaurant/@5.5792906,-0.1842302,17z/data=!3m1!4b1!4m6!3m5!1s0xfdf9bbd32e44935:0xf30f4b3ecf41d5ec!8m2!3d5.5792853!4d-0.1816553!16s%2Fg%2F11s7yqsdgs?hl=ru&entry=ttu" id="map"><img src="./images/Map_Section.webp" alt="address"></a>
-        </section>
-    </main>
-    <footer class="footer">
-        <a class="logo font-headings footer-logo" href="./">NSUOMNAM</a>
-        <nav class="text nav absolute">
-            <ul>
-                <li><a href="./#history" class="nav-link">History</a></li>
-                <li><a href="./#menu" class="nav-link">Menu</a></li>
-                <li><a href="./#trim" class="nav-link">Trim</a></li>
-                <li><a href="./#map" class="nav-link">Map</a></li>
-            </ul>
-        </nav>
-        <p class="footer-text text">
-            10:45AM
-        </p>
-        <p class="footer-text text">
-            E138°00'N36°00'
-        </p>
-        <ul class="footer-list">
-            <li class="text footer-text list-item">Instagram</li>
-            <li class="text footer-text list-item">Telegram</li>
-            <li class="text footer-text list-item">Youtube</li>
-            <li class="text footer-text list-item">Twitter</li>
-        </ul>
-        <button class="button text footer-button absolute">Shopping 
-            <br>cart</button>
-        <p class="text footer-text thanks absolute">Thank you 
-            <br>for choosing</p>
-        <img src="./images/Image_Cover.webp" alt="image-footer" class="footer-image">
-    </footer>
+        </main>
+        <footer></footer>
+    </div>
 </body>
 </html>
